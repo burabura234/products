@@ -12,5 +12,6 @@ while True:
     products.append(p)
 #   products.append(p) 可以直接簡寫為 [name, price]就不用p了
 print(products)
-
-products[0][0]
+for p in products:
+	print(p[0], '的價格是 ', p[1], '元')
+print(products[0][1])
